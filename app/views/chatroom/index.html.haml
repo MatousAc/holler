@@ -1,1 +1,13 @@
-%h1.content You have reached the root route
+%h4.ui.center.aligned.medium.icon.header
+  %i.circular.coffee.inverted.olive.icon
+  holler at someone
+
+.ui.two.column.grid
+  .ten.wide.column
+    .ui.fluid.raised.card.chatbox
+      .content
+        = render "chatbox"
+  .six.wide.column
+    .ui.raised.card
+      .content
+        = render "online_users"

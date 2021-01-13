@@ -1,6 +1,24 @@
 @import "semantic-ui";
 
+.chatbox {
+    height: 750px;
+}
+
 // rewriting semantic
 .ui.menu {
     margin-top: 0;
+}
+
+.ui.small.feed {
+    height: 100%;
+}
+
+.chatbox .extra.content {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 6px;
+    padding: 4px;
+    border: 0px solid lightgrey;
+    border-top-width: 1px;
+    width: 94%;
 }

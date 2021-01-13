@@ -1,9 +1,9 @@
 .ui.small.inverted.menu
     .ui.container
-        %a.active.item Chatroom
+        %a.active.item{:href => "/"} Chatroom
         %a.item Messages
         .right.menu
             %a.item Log out
-            %a.item Log in
+            %a.item{:href => "/login"} Log in
             .item
-                .ui.primary.button Sign Up
+                .ui.button.olive Sign Up
