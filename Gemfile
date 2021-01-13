@@ -25,6 +25,7 @@ gem 'jbuilder', '~> 2.7'
 # Adding semantic
 gem 'semantic-ui-sass'
 gem 'jquery-rails'
+gem 'haml'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
