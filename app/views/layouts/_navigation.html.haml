@@ -1,6 +1,8 @@
 .ui.small.inverted.menu
     .ui.container
-        %a.active.item{:href => "/"} Chatroom
+        -# %a.active.item Chatroom
+            rewritten below:
+        .active.item= link_to "Chatroom", root_path
         %a.item Messages
         .right.menu
             %a.item Log out
